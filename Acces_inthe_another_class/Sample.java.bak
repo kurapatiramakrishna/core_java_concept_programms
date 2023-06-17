@@ -1,0 +1,16 @@
+class Demo
+{
+	public static int a=10;
+	public int b=20;
+}
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main stats..");
+		System.out.println(Demo.a);
+		Demo d1=new Demo();
+		System.out.println(d1.b);
+		System.out.println("main ends");
+	}
+}

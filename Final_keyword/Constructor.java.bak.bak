@@ -1,0 +1,13 @@
+class Constructor
+{
+	final public static int x;
+	public void Constructor(int x)
+	{
+		x=
+	}
+	public static void main(String[] args) 
+	{
+	  Constructor c=new Constructor(20);
+	  System.out.println(c.x);
+	}
+}

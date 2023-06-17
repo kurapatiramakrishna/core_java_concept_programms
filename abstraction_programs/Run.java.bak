@@ -1,0 +1,7 @@
+class Run
+{
+	public void static void getObject()
+	{
+	  Sample rv	= new Demo();
+	}
+}

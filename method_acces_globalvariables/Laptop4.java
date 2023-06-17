@@ -1,0 +1,13 @@
+class Laptop4
+{
+	public static int a=200;
+	public void ram()
+	{
+		System.out.println(a);
+	}
+	public static void main(String[] args) 
+	{
+		Laptop4 l1=new Laptop4();
+		l1.ram();
+	}
+}

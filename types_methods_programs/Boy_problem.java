@@ -1,0 +1,16 @@
+class  Boy_problem
+{
+	public static void findTime(int speed,int distance)
+	{
+		/* length of the bridge is nothing but  distance*/
+		/* formula for find time t=d/s; */
+		int time=distance/speed;
+		System.out.println("length of the bridge is : " + distance+" m");
+		System.out.println("boy walking speed is : " + speed+"m/s");
+		System.out.println("boy will take : " + time+" secounds to cross the bridge");
+	}
+	public static void main(String[] args) 
+	{
+		 findTime(5,150);
+	}
+}

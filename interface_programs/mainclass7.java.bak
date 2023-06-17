@@ -1,0 +1,23 @@
+class Sample
+{
+	public void test()
+	{
+		System.out.println("test is completed");
+	}
+}
+interface Sample1
+	{
+	       void test();
+}
+class Demo extends Sample implements Sample1
+{
+	
+}
+class mainclass7
+{
+	public static void main(String[] args) 
+	{
+		Demo d=new Demo();
+		d.test();
+	}
+}

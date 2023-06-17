@@ -1,0 +1,37 @@
+class Student													// specialization program
+{
+	String name;
+	public Student(String name)
+	{
+		this.name=name;
+	}
+	public  void study()
+	{
+		System.out.println(name+"study exam");
+	}
+	public void prepare()
+	{
+		System.out.println(name+"prepare a test");
+	}
+	public void test()
+	{
+		System.out.println(name+"take a test");
+	}
+}
+class mainclass
+{
+	public static void result(Student student) 
+	{
+		student.study();
+		student.prepare();
+		student.test();
+	}
+	public static void main(String[] args) 
+	{
+		result(new Student("ramakrishna"));
+		System.out.println();
+		result(new Student("vamshi singam"));
+		System.out.println();
+		result(new Student("gopi balakonda"));
+	}
+}

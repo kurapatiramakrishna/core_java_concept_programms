@@ -1,0 +1,28 @@
+interface Smaple12
+{
+	void test12();
+}
+interface Sample13
+{
+	void test13();
+}
+class Demo implements Smaple12,Sample13
+{
+	public void test12()
+	{
+	 System.out.println("test12 is completed");
+	}
+	public void test13()
+	{
+		System.out.println("test13 is completed");
+	}
+}
+class  mainclass4
+{
+	public static void main(String[] args) 
+	{
+		Demo d=new Demo();
+		d.tes12();
+		d.test13();
+	}
+}

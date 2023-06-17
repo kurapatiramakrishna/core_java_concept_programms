@@ -1,0 +1,7 @@
+class Demo implements Smaple
+{
+	public void test()
+	{
+		System.out.println("hi");
+	}
+}

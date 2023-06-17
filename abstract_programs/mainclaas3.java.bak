@@ -1,0 +1,27 @@
+abstract class Irctc
+{
+	abstract public void travel();
+	abstract public void travel();
+}
+class Humans extends Irctc
+{
+	public void travel()
+	{
+		System.out.println("for travelling Humans");
+	}
+}
+class Animals extends Humans
+{
+	public void travel1()
+	{
+	System.out.println("for travelling animals");
+	}
+}
+class mainclaas3
+{
+	public static void main(String[] args) 
+	{
+		Animals animal=new Animals();
+		animal.travel1();
+	}
+}

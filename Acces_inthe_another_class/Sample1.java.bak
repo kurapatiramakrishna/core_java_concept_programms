@@ -1,0 +1,24 @@
+class Sample 
+{
+	public static void ram() 
+	{
+		System.out.println("ram starts");
+		System.out.println("ram ends!");
+	}
+	public  void ram1() 
+	{
+		System.out.println("ram1 starts");
+		System.out.println("ram1 ends");
+	}
+	class Sample1
+	{
+		public static void main(String[] args)
+		{
+			System.out.println("main starts");
+			Sample.ram();
+			Sample s1=new Sample();
+			s1.ram1();
+			System.out.println("main ends");
+		}
+	}
+}

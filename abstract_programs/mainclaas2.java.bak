@@ -1,0 +1,20 @@
+abstract class Irctc
+{
+	abstract public void travel();
+
+}
+class Person extends Irctc
+{
+	public void travel()
+	{
+		System.out.println("for travelling anywhere");
+	}
+}
+class mainclaas2
+{
+	public static void main(String[] args) 
+	{
+		Irctc irctc=new Person();
+		irctc.travel
+	}
+}

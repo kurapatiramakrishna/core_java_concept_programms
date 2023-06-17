@@ -1,0 +1,8 @@
+class Run1 
+{
+	public Sample1 getObject1()
+	{	
+		Sample1 d=new Demo1();
+		return d;
+	}
+}

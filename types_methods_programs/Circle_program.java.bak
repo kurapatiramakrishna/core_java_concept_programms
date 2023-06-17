@@ -1,0 +1,17 @@
+class  Circle_program
+{
+	public static void findRadious(int circumference,double pi )
+	{
+		/* here formula for the radious of circle is 
+		* radious=circumference/pi value
+		* but the actual formula is 
+		* circumference=2 pi value *radious*/
+		double radious=circumference/pi;
+		System.out.println("The circumference is = "+circumference);
+		System.out.println("The radious of the circle is =" +radious);
+	}
+	public static void main(String[] args) 
+	{
+		findRadious(2,2*3.14);
+	}
+}

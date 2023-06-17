@@ -1,0 +1,22 @@
+class Circle 
+{
+	public static double pi=3.14;
+	public int r=10;
+	public void  findArea()
+	{
+		double area=pi*r*r;
+		System.out.println("The area of the circle is ="+area);
+	}
+}
+class Circle1
+{
+	public static void main(String[] args) 
+	{
+		Circle c1=new Circle();
+	    Circle c2=new Circle();
+	    Circle c3=new Circle();
+		c1.findArea();
+		c2.findArea();
+		c3.findArea();
+	}
+}

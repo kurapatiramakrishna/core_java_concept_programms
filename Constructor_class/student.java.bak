@@ -1,0 +1,37 @@
+class student1
+{
+	public static String clgname="JNTU COLLEGE";
+	public static int sal=15000;
+	public String dept="SOFTWARE DEVELOPER";
+	public double percentage;
+	public String company;
+	public student1(double a,String b)
+	{
+	 percentage=a;
+	 company=b;
+	}
+	public void Details()
+	{
+		System.out.println("The college name is:"+clgname);
+		System.out.println("The percentage of student is:"+percentage);
+		System.out.println("The company name is:"+company);
+		System.out.println("The department name is: "+dept);
+		System.out.println("The salary is :"+sal);
+		System.out.println(" ");
+}
+}
+class student 
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		System.out.println((char)i+"   "+(char)i+"   "+(char)i+"   "+(char)i+"   "+(char)i+"   "+(char)i);
+		System.out.println("The three students are :");
+		student1 c1=new student1(7.54,"TCS");
+		student1 c2=new student1(8.93,"WIPRO");
+		student1 c3=new student1(6.94,"TECH MAHINDRA");
+		c1.Details();
+		c2.Details();
+		c3.Details();
+	}
+}

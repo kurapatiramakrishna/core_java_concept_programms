@@ -1,0 +1,19 @@
+class Division
+{
+	public static void main(String[] args)
+	{
+		System.out.println("...DIVISION ...PROGRAM.."); 
+		findDivision(1.2,2.3);
+		findDivision(2,7);
+	}
+	public static void  findDivision(double dividend, double divisor)
+	{
+		double qouieficient=dividend%divisor;
+		System.out.println("The quoieficient is = "+qouieficient);
+	}
+	public static void  findDivision( int dividend,int divisor)
+	{
+		int remainder=dividend/divisor;
+		System.out.println("The remainder  is = "+remainder);
+	}
+}

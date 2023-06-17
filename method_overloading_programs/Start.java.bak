@@ -1,0 +1,41 @@
+class Start 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main starts...!");
+		display(12);
+		display('R');
+		display(7.5);
+		display("ramakrishna");
+		display(true);
+		System.out.println("main starts...!");
+	}
+	public static void display(int a)
+	{
+		System.out.println("display method with int arg:");
+		System.out.println("a :"+a);
+	}
+		public static void display(char a )
+	{
+		System.out.println("display method with char arg:");
+		System.out.println("a :"+a);
+
+	}
+		public static void display(double a)
+	{
+	    System.out.println("display method with double arg:");
+		System.out.println("a :"+a);
+
+	}
+		public static void display(String a)
+	{
+		System.out.println("display method with String arg:");
+		System.out.println("a :"+a);
+	}
+		public static void display(boolean a)
+	{
+		System.out.println("display method with boolean arg:");
+		System.out.println("a :"+a);
+
+	}
+}

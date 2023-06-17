@@ -1,0 +1,22 @@
+class Mobile
+{
+	public Mobile(double a,int b)
+	{
+		// dont initialized a value  here you get an error
+		System.out.println("the value of "+ a+" is: "+a);
+		System.out.println("the value of "+b +" is: "+b);
+
+		}
+}
+class Mobile1 
+{
+	public static void main(String[] args) 
+	{
+
+	Mobile m1=new Mobile(17.2,32);
+	Mobile m2=new Mobile(45.2,44);
+	Mobile m3=new Mobile(18.5,25);
+	Mobile m4=new Mobile(54.2,36);
+
+	}
+}

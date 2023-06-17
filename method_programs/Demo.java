@@ -1,0 +1,14 @@
+class Demo
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main start.....");
+		kick();
+		System.out.println("main start.....");
+	}
+	public static void kick()
+	{
+		System.out.println("kick football..");
+	
+   }
+}
